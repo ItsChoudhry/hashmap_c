@@ -4,8 +4,8 @@ build
 
 ```
 cc -std=c11 -Wall -Wextra -O2 main.c hashmap.c -o demo
+
 cc -std=c11 -Wall -Wextra -O0 -g -fsanitize=address -fno-omit-frame-pointer \
-cc -std=c11 -Wall -Wextra -O2 main.c hashmap.c -o demo
   test_hm.c hashmap.c -o test_hm
 ```
 
